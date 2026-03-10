@@ -1,0 +1,262 @@
+{
+  "version": 1,
+  "updated": "2025-06-01",
+  "feeds": [
+    {"name": "Tagesschau", "url": "https://www.tagesschau.de/xml/rss2/", "category": "general", "country": "Deutschland", "countryFlag": "🇩🇪", "language": "de"},
+    {"name": "ZDF Heute", "url": "https://www.zdf.de/rss/zdf/nachrichten", "category": "general", "country": "Deutschland", "countryFlag": "🇩🇪", "language": "de"},
+    {"name": "Deutschlandfunk", "url": "https://www.deutschlandfunk.de/nachrichten-100.rss", "category": "general", "country": "Deutschland", "countryFlag": "🇩🇪", "language": "de"},
+    {"name": "DW Deutsch", "url": "https://rss.dw.com/rdf/rss-de-all", "category": "general", "country": "Deutschland", "countryFlag": "🇩🇪", "language": "de"},
+    {"name": "DW English", "url": "https://rss.dw.com/rdf/rss-en-all", "category": "general", "country": "Deutschland", "countryFlag": "🇩🇪", "language": "en"},
+    {"name": "BR24", "url": "https://www.br.de/nachrichten/feed/", "category": "general", "country": "Deutschland", "countryFlag": "🇩🇪", "language": "de"},
+    {"name": "MDR Aktuell", "url": "https://www.mdr.de/nachrichten/index-rss.xml", "category": "general", "country": "Deutschland", "countryFlag": "🇩🇪", "language": "de"},
+    {"name": "NDR Info", "url": "https://www.ndr.de/nachrichten/index-rss.xml", "category": "general", "country": "Deutschland", "countryFlag": "🇩🇪", "language": "de"},
+    {"name": "WDR Aktuell", "url": "https://www1.wdr.de/nachrichten/index~.feed", "category": "general", "country": "Deutschland", "countryFlag": "🇩🇪", "language": "de"},
+    {"name": "Heise Online", "url": "https://www.heise.de/rss/heise-atom.xml", "category": "science", "country": "Deutschland", "countryFlag": "🇩🇪", "language": "de"},
+    {"name": "Golem.de", "url": "https://rss.golem.de/rss.php?feed=RSS2.0", "category": "science", "country": "Deutschland", "countryFlag": "🇩🇪", "language": "de"},
+
+    {"name": "BBC World", "url": "http://feeds.bbci.co.uk/news/world/rss.xml", "category": "general", "country": "Vereinigtes Königreich", "countryFlag": "🇬🇧", "language": "en"},
+    {"name": "BBC UK", "url": "http://feeds.bbci.co.uk/news/uk/rss.xml", "category": "general", "country": "Vereinigtes Königreich", "countryFlag": "🇬🇧", "language": "en"},
+    {"name": "BBC Technology", "url": "http://feeds.bbci.co.uk/news/technology/rss.xml", "category": "science", "country": "Vereinigtes Königreich", "countryFlag": "🇬🇧", "language": "en"},
+    {"name": "BBC Science", "url": "http://feeds.bbci.co.uk/news/science_and_environment/rss.xml", "category": "environment", "country": "Vereinigtes Königreich", "countryFlag": "🇬🇧", "language": "en"},
+    {"name": "BBC Business", "url": "http://feeds.bbci.co.uk/news/business/rss.xml", "category": "business", "country": "Vereinigtes Königreich", "countryFlag": "🇬🇧", "language": "en"},
+    {"name": "The Guardian World", "url": "https://www.theguardian.com/world/rss", "category": "general", "country": "Vereinigtes Königreich", "countryFlag": "🇬🇧", "language": "en"},
+    {"name": "The Guardian Environment", "url": "https://www.theguardian.com/environment/rss", "category": "environment", "country": "Vereinigtes Königreich", "countryFlag": "🇬🇧", "language": "en"},
+
+    {"name": "France 24 English", "url": "https://www.france24.com/en/rss", "category": "general", "country": "Frankreich", "countryFlag": "🇫🇷", "language": "en"},
+    {"name": "France 24 Français", "url": "https://www.france24.com/fr/rss", "category": "general", "country": "Frankreich", "countryFlag": "🇫🇷", "language": "fr"},
+    {"name": "RFI English", "url": "https://www.rfi.fr/en/rss", "category": "general", "country": "Frankreich", "countryFlag": "🇫🇷", "language": "en"},
+    {"name": "RFI Français", "url": "https://www.rfi.fr/fr/rss", "category": "general", "country": "Frankreich", "countryFlag": "🇫🇷", "language": "fr"},
+
+    {"name": "SWI swissinfo", "url": "https://www.swissinfo.ch/eng/rss/all-news", "category": "general", "country": "Schweiz", "countryFlag": "🇨🇭", "language": "en"},
+    {"name": "SRF News", "url": "https://www.srf.ch/news/bnf/rss/1890", "category": "general", "country": "Schweiz", "countryFlag": "🇨🇭", "language": "de"},
+
+    {"name": "ORF News", "url": "https://rss.orf.at/news.xml", "category": "general", "country": "Österreich", "countryFlag": "🇦🇹", "language": "de"},
+    {"name": "ORF Science", "url": "https://rss.orf.at/science.xml", "category": "science", "country": "Österreich", "countryFlag": "🇦🇹", "language": "de"},
+
+    {"name": "NOS Nieuws", "url": "https://feeds.nos.nl/nosnieuwsalgemeen", "category": "general", "country": "Niederlande", "countryFlag": "🇳🇱", "language": "nl"},
+
+    {"name": "VRT NWS", "url": "https://www.vrt.be/vrtnws/nl.rss.headlines.xml", "category": "general", "country": "Belgien", "countryFlag": "🇧🇪", "language": "nl"},
+    {"name": "RTBF Info", "url": "https://rss.rtbf.be/article/rss/highlight_rtbfinfo_info-accueil.xml", "category": "general", "country": "Belgien", "countryFlag": "🇧🇪", "language": "fr"},
+
+    {"name": "TVP World", "url": "https://tvpworld.com/rss/news", "category": "general", "country": "Polen", "countryFlag": "🇵🇱", "language": "en"},
+
+    {"name": "RTVE Noticias", "url": "https://www.rtve.es/api/noticias.rss", "category": "general", "country": "Spanien", "countryFlag": "🇪🇸", "language": "es"},
+
+    {"name": "ANSA English", "url": "https://www.ansa.it/english/news/rss.xml", "category": "general", "country": "Italien", "countryFlag": "🇮🇹", "language": "en"},
+
+    {"name": "SVT Nyheter", "url": "https://www.svt.se/nyheter/rss.xml", "category": "general", "country": "Schweden", "countryFlag": "🇸🇪", "language": "sv"},
+
+    {"name": "NRK Nyheter", "url": "https://www.nrk.no/toppsaker.rss", "category": "general", "country": "Norwegen", "countryFlag": "🇳🇴", "language": "no"},
+
+    {"name": "YLE News", "url": "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_NEWS", "category": "general", "country": "Finnland", "countryFlag": "🇫🇮", "language": "en"},
+
+    {"name": "DR Nyheder", "url": "https://www.dr.dk/nyheder/service/feeds/allenyheder", "category": "general", "country": "Dänemark", "countryFlag": "🇩🇰", "language": "da"},
+
+    {"name": "RTP Notícias", "url": "https://www.rtp.pt/noticias/rss/", "category": "general", "country": "Portugal", "countryFlag": "🇵🇹", "language": "pt"},
+
+    {"name": "RTÉ News", "url": "https://www.rte.ie/news/rss/news-headlines.xml", "category": "general", "country": "Irland", "countryFlag": "🇮🇪", "language": "en"},
+
+    {"name": "ERT News", "url": "https://www.ert.gr/feed/", "category": "general", "country": "Griechenland", "countryFlag": "🇬🇷", "language": "el"},
+
+    {"name": "Czech Radio", "url": "https://english.radio.cz/rss", "category": "general", "country": "Tschechien", "countryFlag": "🇨🇿", "language": "en"},
+
+    {"name": "Romania Insider", "url": "https://www.romania-insider.com/feed", "category": "general", "country": "Rumänien", "countryFlag": "🇷🇴", "language": "en"},
+    {"name": "RFI România", "url": "https://www.rfi.ro/rss.xml", "category": "general", "country": "Rumänien", "countryFlag": "🇷🇴", "language": "ro"},
+
+    {"name": "Hungary Today", "url": "https://hungarytoday.hu/feed/", "category": "general", "country": "Ungarn", "countryFlag": "🇭🇺", "language": "en"},
+
+    {"name": "Croatia Week", "url": "https://www.croatiaweek.com/feed/", "category": "general", "country": "Kroatien", "countryFlag": "🇭🇷", "language": "en"},
+
+    {"name": "N1 Serbia", "url": "https://n1info.rs/feed/", "category": "general", "country": "Serbien", "countryFlag": "🇷🇸", "language": "sr"},
+
+    {"name": "Novinite", "url": "https://www.novinite.com/rss.php", "category": "general", "country": "Bulgarien", "countryFlag": "🇧🇬", "language": "en"},
+
+    {"name": "Slovak Spectator", "url": "https://spectator.sme.sk/rss", "category": "general", "country": "Slowakei", "countryFlag": "🇸🇰", "language": "en"},
+
+    {"name": "STA Slovenia", "url": "https://english.sta.si/rss", "category": "general", "country": "Slowenien", "countryFlag": "🇸🇮", "language": "en"},
+
+    {"name": "ERR News", "url": "https://news.err.ee/rss", "category": "general", "country": "Estland", "countryFlag": "🇪🇪", "language": "en"},
+
+    {"name": "LSM English", "url": "https://eng.lsm.lv/rss/", "category": "general", "country": "Lettland", "countryFlag": "🇱🇻", "language": "en"},
+
+    {"name": "LRT English", "url": "https://www.lrt.lt/en/rss", "category": "general", "country": "Litauen", "countryFlag": "🇱🇹", "language": "en"},
+
+    {"name": "Iceland Monitor", "url": "https://icelandmonitor.mbl.is/rss/news/", "category": "general", "country": "Island", "countryFlag": "🇮🇸", "language": "en"},
+
+    {"name": "NPR News", "url": "https://feeds.npr.org/1001/rss.xml", "category": "general", "country": "USA", "countryFlag": "🇺🇸", "language": "en"},
+    {"name": "NPR World", "url": "https://feeds.npr.org/1004/rss.xml", "category": "general", "country": "USA", "countryFlag": "🇺🇸", "language": "en"},
+    {"name": "NPR Science", "url": "https://feeds.npr.org/1007/rss.xml", "category": "science", "country": "USA", "countryFlag": "🇺🇸", "language": "en"},
+    {"name": "NPR Health", "url": "https://feeds.npr.org/1128/rss.xml", "category": "science", "country": "USA", "countryFlag": "🇺🇸", "language": "en"},
+    {"name": "NPR Technology", "url": "https://feeds.npr.org/1019/rss.xml", "category": "science", "country": "USA", "countryFlag": "🇺🇸", "language": "en"},
+    {"name": "NPR Business", "url": "https://feeds.npr.org/1006/rss.xml", "category": "business", "country": "USA", "countryFlag": "🇺🇸", "language": "en"},
+    {"name": "NPR Environment", "url": "https://feeds.npr.org/1025/rss.xml", "category": "environment", "country": "USA", "countryFlag": "🇺🇸", "language": "en"},
+    {"name": "PBS NewsHour", "url": "https://www.pbs.org/newshour/feeds/rss/headlines", "category": "general", "country": "USA", "countryFlag": "🇺🇸", "language": "en"},
+    {"name": "NASA Breaking News", "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss", "category": "science", "country": "USA", "countryFlag": "🇺🇸", "language": "en"},
+
+    {"name": "CBC Top Stories", "url": "https://www.cbc.ca/webfeed/rss/rss-topstories", "category": "general", "country": "Kanada", "countryFlag": "🇨🇦", "language": "en"},
+    {"name": "CBC World", "url": "https://www.cbc.ca/webfeed/rss/rss-world", "category": "general", "country": "Kanada", "countryFlag": "🇨🇦", "language": "en"},
+    {"name": "CBC Technology", "url": "https://www.cbc.ca/webfeed/rss/rss-technology", "category": "science", "country": "Kanada", "countryFlag": "🇨🇦", "language": "en"},
+    {"name": "CBC Health", "url": "https://www.cbc.ca/webfeed/rss/rss-health", "category": "science", "country": "Kanada", "countryFlag": "🇨🇦", "language": "en"},
+    {"name": "CBC Business", "url": "https://www.cbc.ca/webfeed/rss/rss-business", "category": "business", "country": "Kanada", "countryFlag": "🇨🇦", "language": "en"},
+
+    {"name": "Jamaica Gleaner", "url": "https://jamaica-gleaner.com/feed/rss.xml", "category": "general", "country": "Jamaika", "countryFlag": "🇯🇲", "language": "en"},
+    {"name": "Trinidad Express", "url": "https://trinidadexpress.com/search/?f=rss&t=article", "category": "general", "country": "Trinidad und Tobago", "countryFlag": "🇹🇹", "language": "en"},
+    {"name": "Tico Times", "url": "https://ticotimes.net/feed", "category": "general", "country": "Costa Rica", "countryFlag": "🇨🇷", "language": "en"},
+
+    {"name": "AllAfrica", "url": "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf", "category": "general", "country": "Afrika", "countryFlag": "🌍", "language": "en"},
+    {"name": "AllAfrica Business", "url": "https://allafrica.com/tools/headlines/rdf/business/headlines.rdf", "category": "business", "country": "Afrika", "countryFlag": "🌍", "language": "en"},
+    {"name": "Africa News", "url": "https://www.africanews.com/feed/", "category": "general", "country": "Afrika", "countryFlag": "🌍", "language": "en"},
+    {"name": "The Africa Report", "url": "https://www.theafricareport.com/feed/", "category": "general", "country": "Afrika", "countryFlag": "🌍", "language": "en"},
+
+    {"name": "News24 South Africa", "url": "https://feeds.news24.com/articles/news24/TopStories/rss", "category": "general", "country": "Südafrika", "countryFlag": "🇿🇦", "language": "en"},
+    {"name": "Daily Maverick", "url": "https://www.dailymaverick.co.za/dmrss/", "category": "general", "country": "Südafrika", "countryFlag": "🇿🇦", "language": "en"},
+    {"name": "SABC News", "url": "https://www.sabcnews.com/sabcnews/feed/", "category": "general", "country": "Südafrika", "countryFlag": "🇿🇦", "language": "en"},
+
+    {"name": "Nation Africa", "url": "https://nation.africa/kenya/rss.xml", "category": "general", "country": "Kenia", "countryFlag": "🇰🇪", "language": "en"},
+    {"name": "The Standard Kenya", "url": "https://www.standardmedia.co.ke/rss/headlines.php", "category": "general", "country": "Kenia", "countryFlag": "🇰🇪", "language": "en"},
+
+    {"name": "Punch Nigeria", "url": "https://punchng.com/feed/", "category": "general", "country": "Nigeria", "countryFlag": "🇳🇬", "language": "en"},
+    {"name": "Vanguard Nigeria", "url": "https://www.vanguardngr.com/feed/", "category": "general", "country": "Nigeria", "countryFlag": "🇳🇬", "language": "en"},
+    {"name": "Premium Times", "url": "https://www.premiumtimesng.com/feed", "category": "general", "country": "Nigeria", "countryFlag": "🇳🇬", "language": "en"},
+
+    {"name": "Egypt Independent", "url": "https://egyptindependent.com/feed/", "category": "general", "country": "Ägypten", "countryFlag": "🇪🇬", "language": "en"},
+    {"name": "Daily News Egypt", "url": "https://dailynewsegypt.com/feed/", "category": "general", "country": "Ägypten", "countryFlag": "🇪🇬", "language": "en"},
+
+    {"name": "GhanaWeb", "url": "https://www.ghanaweb.com/GhanaHomePage/rss/", "category": "general", "country": "Ghana", "countryFlag": "🇬🇭", "language": "en"},
+    {"name": "MyJoyOnline", "url": "https://www.myjoyonline.com/feed/", "category": "general", "country": "Ghana", "countryFlag": "🇬🇭", "language": "en"},
+
+    {"name": "Morocco World News", "url": "https://www.moroccoworldnews.com/feed/", "category": "general", "country": "Marokko", "countryFlag": "🇲🇦", "language": "en"},
+
+    {"name": "The Citizen Tanzania", "url": "https://www.thecitizen.co.tz/feed", "category": "general", "country": "Tansania", "countryFlag": "🇹🇿", "language": "en"},
+
+    {"name": "Daily Monitor Uganda", "url": "https://www.monitor.co.ug/feed", "category": "general", "country": "Uganda", "countryFlag": "🇺🇬", "language": "en"},
+
+    {"name": "Ethiopia Observer", "url": "https://www.ethiopiaobserver.com/feed/", "category": "general", "country": "Äthiopien", "countryFlag": "🇪🇹", "language": "en"},
+
+    {"name": "Seneweb", "url": "https://www.seneweb.com/news/rss", "category": "general", "country": "Senegal", "countryFlag": "🇸🇳", "language": "fr"},
+
+    {"name": "The New Times Rwanda", "url": "https://www.newtimes.co.rw/feed", "category": "general", "country": "Ruanda", "countryFlag": "🇷🇼", "language": "en"},
+
+    {"name": "Tunisia Live", "url": "https://www.tunisia-live.net/feed/", "category": "general", "country": "Tunesien", "countryFlag": "🇹🇳", "language": "en"},
+
+    {"name": "NHK World", "url": "https://www3.nhk.or.jp/rss/news/cat0.xml", "category": "general", "country": "Japan", "countryFlag": "🇯🇵", "language": "ja"},
+    {"name": "Japan Times", "url": "https://www.japantimes.co.jp/feed/", "category": "general", "country": "Japan", "countryFlag": "🇯🇵", "language": "en"},
+
+    {"name": "ABC Australia Top", "url": "https://www.abc.net.au/news/feed/2942460/rss.xml", "category": "general", "country": "Australien", "countryFlag": "🇦🇺", "language": "en"},
+    {"name": "ABC Australia World", "url": "https://www.abc.net.au/news/feed/51120/rss.xml", "category": "general", "country": "Australien", "countryFlag": "🇦🇺", "language": "en"},
+    {"name": "ABC Science", "url": "https://www.abc.net.au/news/feed/46934/rss.xml", "category": "science", "country": "Australien", "countryFlag": "🇦🇺", "language": "en"},
+    {"name": "ABC Environment", "url": "https://www.abc.net.au/news/feed/45924/rss.xml", "category": "environment", "country": "Australien", "countryFlag": "🇦🇺", "language": "en"},
+    {"name": "SBS Australia", "url": "https://www.sbs.com.au/news/feed", "category": "general", "country": "Australien", "countryFlag": "🇦🇺", "language": "en"},
+
+    {"name": "RNZ News", "url": "https://www.rnz.co.nz/rss/national.xml", "category": "general", "country": "Neuseeland", "countryFlag": "🇳🇿", "language": "en"},
+    {"name": "RNZ World", "url": "https://www.rnz.co.nz/rss/world.xml", "category": "general", "country": "Neuseeland", "countryFlag": "🇳🇿", "language": "en"},
+
+    {"name": "The Hindu", "url": "https://www.thehindu.com/feeder/default.rss", "category": "general", "country": "Indien", "countryFlag": "🇮🇳", "language": "en"},
+    {"name": "The Hindu Science", "url": "https://www.thehindu.com/sci-tech/feeder/default.rss", "category": "science", "country": "Indien", "countryFlag": "🇮🇳", "language": "en"},
+    {"name": "NDTV News", "url": "https://feeds.feedburner.com/ndtvnews-top-stories", "category": "general", "country": "Indien", "countryFlag": "🇮🇳", "language": "en"},
+    {"name": "Times of India", "url": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms", "category": "general", "country": "Indien", "countryFlag": "🇮🇳", "language": "en"},
+    {"name": "Indian Express", "url": "https://indianexpress.com/feed/", "category": "general", "country": "Indien", "countryFlag": "🇮🇳", "language": "en"},
+
+    {"name": "CNA Asia", "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml", "category": "general", "country": "Singapur", "countryFlag": "🇸🇬", "language": "en"},
+
+    {"name": "Yonhap News", "url": "https://en.yna.co.kr/RSS/news.xml", "category": "general", "country": "Südkorea", "countryFlag": "🇰🇷", "language": "en"},
+    {"name": "Korea Herald", "url": "http://www.koreaherald.com/rss", "category": "general", "country": "Südkorea", "countryFlag": "🇰🇷", "language": "en"},
+
+    {"name": "Bangkok Post", "url": "https://www.bangkokpost.com/rss/data/topstories.xml", "category": "general", "country": "Thailand", "countryFlag": "🇹🇭", "language": "en"},
+
+    {"name": "Rappler", "url": "https://www.rappler.com/feed/", "category": "general", "country": "Philippinen", "countryFlag": "🇵🇭", "language": "en"},
+    {"name": "Inquirer", "url": "https://newsinfo.inquirer.net/feed", "category": "general", "country": "Philippinen", "countryFlag": "🇵🇭", "language": "en"},
+
+    {"name": "Jakarta Post", "url": "https://www.thejakartapost.com/feed", "category": "general", "country": "Indonesien", "countryFlag": "🇮🇩", "language": "en"},
+
+    {"name": "The Star Malaysia", "url": "https://www.thestar.com.my/rss/News", "category": "general", "country": "Malaysia", "countryFlag": "🇲🇾", "language": "en"},
+
+    {"name": "VnExpress English", "url": "https://e.vnexpress.net/rss/news.rss", "category": "general", "country": "Vietnam", "countryFlag": "🇻🇳", "language": "en"},
+
+    {"name": "Dawn Pakistan", "url": "https://www.dawn.com/feeds/home", "category": "general", "country": "Pakistan", "countryFlag": "🇵🇰", "language": "en"},
+
+    {"name": "Daily Star Bangladesh", "url": "https://www.thedailystar.net/frontpage/rss.xml", "category": "general", "country": "Bangladesch", "countryFlag": "🇧🇩", "language": "en"},
+
+    {"name": "Daily Mirror Sri Lanka", "url": "https://www.dailymirror.lk/RSS_Feeds/breaking-news/108", "category": "general", "country": "Sri Lanka", "countryFlag": "🇱🇰", "language": "en"},
+
+    {"name": "Kathmandu Post", "url": "https://kathmandupost.com/rss", "category": "general", "country": "Nepal", "countryFlag": "🇳🇵", "language": "en"},
+
+    {"name": "Montsame", "url": "https://montsame.mn/en/rss", "category": "general", "country": "Mongolei", "countryFlag": "🇲🇳", "language": "en"},
+
+    {"name": "Taiwan News", "url": "https://www.taiwannews.com.tw/en/rss", "category": "general", "country": "Taiwan", "countryFlag": "🇹🇼", "language": "en"},
+    {"name": "Focus Taiwan", "url": "https://focustaiwan.tw/rss", "category": "general", "country": "Taiwan", "countryFlag": "🇹🇼", "language": "en"},
+
+    {"name": "Khmer Times", "url": "https://www.khmertimeskh.com/feed/", "category": "general", "country": "Kambodscha", "countryFlag": "🇰🇭", "language": "en"},
+
+    {"name": "Irrawaddy", "url": "https://www.irrawaddy.com/feed", "category": "general", "country": "Myanmar", "countryFlag": "🇲🇲", "language": "en"},
+
+    {"name": "Fiji Times", "url": "https://www.fijitimes.com.fj/feed/", "category": "general", "country": "Fidschi", "countryFlag": "🇫🇯", "language": "en"},
+
+    {"name": "PNG Post-Courier", "url": "https://postcourier.com.pg/feed/", "category": "general", "country": "Papua-Neuguinea", "countryFlag": "🇵🇬", "language": "en"},
+
+    {"name": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml", "category": "general", "country": "Katar", "countryFlag": "🇶🇦", "language": "en"},
+    {"name": "DW Español", "url": "https://rss.dw.com/rdf/rss-sp-all", "category": "general", "country": "Deutschland", "countryFlag": "🇩🇪", "language": "es"},
+    {"name": "France 24 Español", "url": "https://www.france24.com/es/rss", "category": "general", "country": "Frankreich", "countryFlag": "🇫🇷", "language": "es"},
+
+    {"name": "Folha de São Paulo", "url": "https://feeds.folha.uol.com.br/folha/emcimadahora/rss091.xml", "category": "general", "country": "Brasilien", "countryFlag": "🇧🇷", "language": "pt"},
+    {"name": "G1 Globo", "url": "https://g1.globo.com/rss/g1/", "category": "general", "country": "Brasilien", "countryFlag": "🇧🇷", "language": "pt"},
+    {"name": "Brazil Report", "url": "https://brazilian.report/feed/", "category": "general", "country": "Brasilien", "countryFlag": "🇧🇷", "language": "en"},
+    {"name": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml", "category": "general", "country": "Brasilien", "countryFlag": "🇧🇷", "language": "pt"},
+
+    {"name": "La Nación Argentina", "url": "https://www.lanacion.com.ar/arcio/rss/", "category": "general", "country": "Argentinien", "countryFlag": "🇦🇷", "language": "es"},
+    {"name": "Clarín", "url": "https://www.clarin.com/rss/lo-ultimo/", "category": "general", "country": "Argentinien", "countryFlag": "🇦🇷", "language": "es"},
+    {"name": "Infobae Argentina", "url": "https://www.infobae.com/feeds/rss/", "category": "general", "country": "Argentinien", "countryFlag": "🇦🇷", "language": "es"},
+
+    {"name": "El Universal México", "url": "https://www.eluniversal.com.mx/rss.xml", "category": "general", "country": "Mexiko", "countryFlag": "🇲🇽", "language": "es"},
+    {"name": "Milenio", "url": "https://www.milenio.com/rss", "category": "general", "country": "Mexiko", "countryFlag": "🇲🇽", "language": "es"},
+
+    {"name": "La Tercera", "url": "https://www.latercera.com/feed/", "category": "general", "country": "Chile", "countryFlag": "🇨🇱", "language": "es"},
+    {"name": "BioBioChile", "url": "https://www.biobiochile.cl/feed/", "category": "general", "country": "Chile", "countryFlag": "🇨🇱", "language": "es"},
+
+    {"name": "El Tiempo Colombia", "url": "https://www.eltiempo.com/rss/portada.xml", "category": "general", "country": "Kolumbien", "countryFlag": "🇨🇴", "language": "es"},
+    {"name": "El Espectador", "url": "https://www.elespectador.com/arc/outboundfeeds/rss/", "category": "general", "country": "Kolumbien", "countryFlag": "🇨🇴", "language": "es"},
+
+    {"name": "El Comercio Perú", "url": "https://elcomercio.pe/arcio/rss/", "category": "general", "country": "Peru", "countryFlag": "🇵🇪", "language": "es"},
+    {"name": "RPP Noticias", "url": "https://rpp.pe/feed", "category": "general", "country": "Peru", "countryFlag": "🇵🇪", "language": "es"},
+
+    {"name": "El Universo", "url": "https://www.eluniverso.com/rss/todas-las-noticias.xml", "category": "general", "country": "Ecuador", "countryFlag": "🇪🇨", "language": "es"},
+
+    {"name": "El País Uruguay", "url": "https://www.elpais.com.uy/rss/", "category": "general", "country": "Uruguay", "countryFlag": "🇺🇾", "language": "es"},
+
+    {"name": "El Nacional", "url": "https://www.elnacional.com/feed/", "category": "general", "country": "Venezuela", "countryFlag": "🇻🇪", "language": "es"},
+
+    {"name": "Los Tiempos Bolivia", "url": "https://www.lostiempos.com/rss.xml", "category": "general", "country": "Bolivien", "countryFlag": "🇧🇴", "language": "es"},
+
+    {"name": "Prensa Libre", "url": "https://www.prensalibre.com/feed/", "category": "general", "country": "Guatemala", "countryFlag": "🇬🇹", "language": "es"},
+
+    {"name": "OnCuba News", "url": "https://oncubanews.com/en/feed/", "category": "general", "country": "Kuba", "countryFlag": "🇨🇺", "language": "en"},
+
+    {"name": "Gulf News", "url": "https://gulfnews.com/rss", "category": "general", "country": "VAE", "countryFlag": "🇦🇪", "language": "en"},
+    {"name": "Khaleej Times", "url": "https://www.khaleejtimes.com/rss", "category": "general", "country": "VAE", "countryFlag": "🇦🇪", "language": "en"},
+
+    {"name": "Arab News", "url": "https://www.arabnews.com/rss.xml", "category": "general", "country": "Saudi-Arabien", "countryFlag": "🇸🇦", "language": "en"},
+
+    {"name": "Jerusalem Post", "url": "https://www.jpost.com/rss/rssfeedsheadlines.aspx", "category": "general", "country": "Israel", "countryFlag": "🇮🇱", "language": "en"},
+    {"name": "Times of Israel", "url": "https://www.timesofisrael.com/feed/", "category": "general", "country": "Israel", "countryFlag": "🇮🇱", "language": "en"},
+
+    {"name": "Daily Sabah", "url": "https://www.dailysabah.com/rssFeed/homepage", "category": "general", "country": "Türkei", "countryFlag": "🇹🇷", "language": "en"},
+    {"name": "TRT World", "url": "https://www.trtworld.com/rss", "category": "general", "country": "Türkei", "countryFlag": "🇹🇷", "language": "en"},
+
+    {"name": "Jordan Times", "url": "https://jordantimes.com/feed", "category": "general", "country": "Jordanien", "countryFlag": "🇯🇴", "language": "en"},
+
+    {"name": "Times of Oman", "url": "https://timesofoman.com/feed", "category": "general", "country": "Oman", "countryFlag": "🇴🇲", "language": "en"},
+
+    {"name": "Gulf Daily News", "url": "https://www.gdnlife.com/feed/", "category": "general", "country": "Bahrain", "countryFlag": "🇧🇭", "language": "en"},
+
+    {"name": "Kuwait Times", "url": "https://kuwaittimes.com/feed/", "category": "general", "country": "Kuwait", "countryFlag": "🇰🇼", "language": "en"},
+
+    {"name": "Good News Magazin", "url": "https://goodnews-magazin.de/feed/", "category": "goodNews", "country": "Deutschland", "countryFlag": "🇩🇪", "language": "de"},
+    {"name": "Positive News UK", "url": "https://www.positive.news/feed/", "category": "goodNews", "country": "Vereinigtes Königreich", "countryFlag": "🇬🇧", "language": "en"},
+    {"name": "Good News Network", "url": "https://www.goodnewsnetwork.org/feed/", "category": "goodNews", "country": "USA", "countryFlag": "🇺🇸", "language": "en"},
+    {"name": "Reasons to be Cheerful", "url": "https://reasonstobecheerful.world/feed/", "category": "goodNews", "country": "USA", "countryFlag": "🇺🇸", "language": "en"},
+    {"name": "Utopia", "url": "https://utopia.de/feed/", "category": "environment", "country": "Deutschland", "countryFlag": "🇩🇪", "language": "de"},
+    {"name": "Treehugger", "url": "https://www.treehugger.com/feeds/all", "category": "environment", "country": "USA", "countryFlag": "🇺🇸", "language": "en"},
+    {"name": "Grist", "url": "https://grist.org/feed/", "category": "environment", "country": "USA", "countryFlag": "🇺🇸", "language": "en"},
+    {"name": "Yale Environment 360", "url": "https://e360.yale.edu/feed.xml", "category": "environment", "country": "USA", "countryFlag": "🇺🇸", "language": "en"}
+  ]
+}
