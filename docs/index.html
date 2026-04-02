@@ -151,6 +151,8 @@
         📌 <a href="#kontakt">Kontakt</a>
         <a href="#datenschutz">Datenschutz</a>
         <a href="#quellen">Quellen</a>
+        <a href="#kategorien">Kategorien</a>
+        <a href="#positivitaet">Positivität</a>
         <a href="#feeds">Feed-Liste</a>
         <a href="#spende">Spende</a>
     </div>
@@ -177,6 +179,41 @@
             <li>Direkter <strong>Link zum Originalartikel</strong></li>
         </ul>
         <p>Es werden ausschließlich Artikel angezeigt, die <strong>weniger als 3 Monate alt</strong> sind. Die Inhalte werden regelmäßig automatisch aktualisiert.</p>
+    </div>
+
+    <!-- KATEGORIEN-BEREICH -->
+    <div id="kategorien">
+        <h2>📂 Kategorien</h2>
+        <p>Jeder Artikel wird automatisch einer Kategorie zugeordnet:</p>
+        <ul>
+            <li>📰 <strong>Allgemein</strong> – Allgemeine Nachrichten</li>
+            <li>☀️ <strong>Good News</strong> – Besonders positive Nachrichten</li>
+            <li>💼 <strong>Wirtschaft</strong> – Wirtschaft & Finanzen</li>
+            <li>🔬 <strong>Wissenschaft</strong> – Wissenschaft & Technologie</li>
+            <li>🌍 <strong>Umwelt</strong> – Umwelt & Klima</li>
+            <li>⚽ <strong>Sport</strong> – Sport & Wettkämpfe</li>
+            <li>🏛️ <strong>Politik</strong> – Politik & Diplomatie</li>
+        </ul>
+        <p>Die Kategorie wird entweder direkt von der RSS-Quelle vorgegeben oder automatisch durch <strong>Keyword-Analyse</strong> des deutschen Textes bestimmt. Dabei werden über 300 deutsche Schlüsselbegriffe pro Kategorie ausgewertet. Ein Artikel muss mindestens 2 Keyword-Treffer haben, um einer speziellen Kategorie zugeordnet zu werden.</p>
+    </div>
+
+    <!-- POSITIVITÄTS-BEREICH -->
+    <div id="positivitaet">
+        <h2>😊 Positivitäts-Bewertung</h2>
+        <p>Jeder Artikel erhält einen <strong>Positivitäts-Score von 0 bis 100</strong>, der angibt, wie positiv der Inhalt ist:</p>
+        <ul>
+            <li>😊 <strong>≥ 60</strong> – Positiv (grün)</li>
+            <li>😐 <strong>40–59</strong> – Neutral (gelb)</li>
+            <li>😟 <strong>&lt; 40</strong> – Negativ (rot)</li>
+        </ul>
+        <p>Die Bewertung basiert auf:</p>
+        <ul>
+            <li><strong>Keyword-Analyse:</strong> Über 500 deutsche Schlüsselbegriffe in 7 Gewichtungsstufen (stark positiv bis stark negativ)</li>
+            <li><strong>Themen-Erkennung:</strong> Bonus für positive Themenkombinationen wie „erneuerbare Energie“ oder „neue Arbeitsplätze geschaffen“</li>
+            <li><strong>Sentiment-Muster:</strong> Regex-basierte Erkennung von Satzmustern wie „erstmals gelungen“, „Rekordwert erreicht“</li>
+            <li><strong>Quellen-Bonus:</strong> Bekannte Good-News-Quellen erhalten einen zusätzlichen Positivitäts-Bonus</li>
+        </ul>
+        <p>Artikel werden nach Score sortiert – die positivsten Nachrichten erscheinen zuerst.</p>
     </div>
 
     <!-- SPENDE-BEREICH -->
